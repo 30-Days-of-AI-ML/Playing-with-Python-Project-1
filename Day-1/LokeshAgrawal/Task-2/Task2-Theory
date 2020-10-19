@@ -1,0 +1,22 @@
+Name: Lokesh Agrawal
+In our task2.py, we use two method to play the sound --->
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) using gTTS and playsound 
+=> Here we use gTTs to convert text to speech and playsound module to play our speech. 
+Here are the steps -->
+i) First of all, we import our module playsound and gTTs.
+ii) Then we write the text that we want to convert into speech and then we select the language
+iii) Now we make an object of the gTTS to convert the text to speech and the object the language, text as its input
+iv) At last, we save our file and then play our speech using playsound.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) using pypiwin32
+=> Here we use the win32com.client to convert text to speech and in this module we have in-built function to play song
+Here are the steps ---->
+i) First of all, we import our win32com.client.
+ii) Then we create our speaker using the Dispatch function of win32com.client
+iii) Additionally we make an while Loop so that user can enter the text and our program converts it into speech.
+iv) We also take the user_choice as the user wants to again type the text or quit this player.
+v) We use Speak function to speak the text.
