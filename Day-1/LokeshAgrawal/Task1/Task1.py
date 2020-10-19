@@ -11,6 +11,6 @@ ques2 = x ** 2
 ques3 = sp.tan(sp.sin(x))
 
 # solving the integrals using sp.integrate
-print(sp.integrate(ques1))
-print(sp.integrate(ques2))
-print(sp.integrate(ques3))
+print(f"The integration of {ques1} is: {sp.integrate(ques1)}.")
+print(f"The integration of {ques1} is: {sp.integrate(ques2)}.")
+print(f"The integration of {ques1} is: {sp.integrate(ques3)}.")
